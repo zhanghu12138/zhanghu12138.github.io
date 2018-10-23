@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" href="wode/less/wodestyle.css">
+</head>
+<body>
+	<div class="head">
+		<div class="head01"></div>
+		<img src="wode/img/touxiang@2x.png" alt="">
+	</div>
+	<div class="shen">
+		<ul>
+			<li>
+				<p>问题反馈</p>
+				<img src="wode/img/youjiantou@2x.png" alt="">
+			</li>
+			<li>
+				<p>关于我们</p>
+				<img src="wode/img/youjiantou@2x.png" alt="">
+			</li>
+			<li>
+				<p>清楚缓存</p>
+				<img src="wode/img/youjiantou@2x.png" alt="">
+			</li>
+		</ul>
+	</div>
+	<div class="daohang">
+		<ul>
+			<li>
+			<a href="shujia.html">
+				<img src="wode/img/shujia@2x.png" alt="">
+				<p>书架</p>
+				</a>
+			</li>
+			<li>
+			<a href="faxian.html">
+				<img src="wode/img/faxian@2x.png" alt="">
+				<p>发现</p>
+				</a>
+			</li>
+			<li>
+			<a href="fenlei.html">
+				<img src="wode/img/fenlei@2x.png" alt="">
+				<p>分类</p>
+				</a>
+			</li>
+			<li>
+			<a href="">
+				<img src="wode/img/wode@2x.png" alt="">
+				<p>我的</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script>
+		var pixelRatio = 1 / window.devicePixelRatio;              
+		document.write('<meta name="viewport" content="width=device-width,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'" />');
+		var html=document.getElementsByTagName('html')[0];
+		var pageWidth=html.getBoundingClientRect().width;
+		html.style.fontSize=pageWidth/10+"px";
+	</script>
+</body>
+</html>
