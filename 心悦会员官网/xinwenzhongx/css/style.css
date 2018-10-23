@@ -1,0 +1,204 @@
+*{margin:0px;padding:0px; box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style:none;}
+a:hover{
+	text-decoration: none;
+	color:red;
+}
+.datou{
+	height:50px;
+	border-bottom: #cecdd2 1px solid;
+	line-height: 50px;
+	position: relative;
+}
+.tequan{
+	text-align: center;
+	position: relative;
+}
+.tequan>a{
+	font-size: 12px;
+}
+.te{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	background: url("../img/zonghe.png") 0px 0px no-repeat;
+}
+.ditu{
+	padding: 8px;
+	border:1px solid #d9d9d9;
+	overflow: hidden;
+}
+.erji{
+	width:442px;
+	position: absolute;
+	z-index: 10;
+	background: #fff;
+	border:#e8e8e9 1px solid;
+	top:48px;
+	right: 10px;
+	border-top: #cecdd2 1px solid;
+	display: none;
+}
+
+.list{
+	float:left;
+	width:110px;
+	padding-bottom: 5px;
+}
+.erji>.list>h3{
+	background:#f3f3f5;
+	padding-left: 15px;
+	font-size: 16px;
+	line-height: 36px;
+	margin-top: 0px;
+}
+.erji>.list>a{
+	display: block;
+	width: 110px;
+	height:30px;
+	line-height: 30px;
+	padding-left: 15px;
+	color:#52505a;
+	font-size: 12px;
+}
+.erji>.list>a:hover{
+	color: red;
+}
+.xianshi:hover .erji{
+	display: block;
+}
+#g_nav{
+	background: #fafafa;
+	border-bottom: #468dff 2px solid;
+	border-top: #ececec 1px solid;
+}
+.tese>li{
+	float: left;
+	padding: 15px 15px 15px 15px;
+	margin-left: 20px;
+	position: relative;
+}
+.tese>li>a{
+	font-size: 18px;
+	color:#52505A;
+}
+.tese>li:nth-child(4){
+	background: #468DFF;
+}
+.tese>li:nth-child(4)>a{
+	color:white;
+}
+.tese>li>a:hover{
+	color:#46A8FD;
+}
+.tese>li:nth-child(4)>a:hover{
+	color:white;
+}
+.sanji{
+	background: #fafafa;
+	border:#468dff 2px solid;
+	border-top: transparent;
+	position: absolute;
+	top:55px;
+	left:0px;
+	z-index: 10;
+	display: none;
+}
+.sanji>li>a{
+	display: block;
+	width: 100px;
+	height:30px;
+	line-height: 30px;
+	padding-left: 15px;
+	color:#52505a;
+	font-size: 12px;
+}
+.sanji>li>a:hover{
+	color:red;
+}
+.tese>li:hover .sanji{
+	display: block;
+}
+
+
+
+
+
+.footer{
+	height: 240px;
+    background: #eaeaea;
+    border-top: #dcdbdf 1px solid;
+    border-bottom: #e3e3e3 1px solid;
+    margin-top: 25px;
+    display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.footer>div{
+	width:50%;
+	height:180px;
+	margin:0px auto;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.footer>div>a{
+	display: flex;
+}
+.footer>div>a>span{
+	width: 86px;
+    height: 86px;
+    display: block;
+    margin: 8px 15px 0 0;
+    background: url(../img/zonghe.png) no-repeat;
+}
+.footer>div>a>div{
+    height: 100px;
+}
+.footer>div>a:nth-child(1)>span{
+	background-position: 0px -40px;
+}
+.footer>div>a:nth-child(2)>span{
+	background-position: -91px -40px;
+}
+.footer>div>a:nth-child(3)>span{
+	background-position: -182px -40px;
+}
+.footer>div>a>div>p{
+	font-size: 12px;
+	color:#BBAEB3;
+}
+.footer>div>a>div>h3{
+	color:#4A4C59;
+}
+#dian{
+	color:red;
+}
+#dian01{
+	color:red;
+}
+.footer01{
+	text-align: center;
+    padding: 60px 0 20px 0;
+    background: #eaeaea;
+    border-top: #f7f7f7 1px solid;
+}
+.footer01>div>ul{
+	margin: 0px auto;
+	width:40%;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.footer01>div>ul>li{
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #8F5094;
+}
+.footer01>div>ul>li:last-child{
+	border-right: transparent;
+}
+.footer01>div>ul>li>a{
+	color:#4A4C59;
+}
